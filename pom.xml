@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <junit.version>5.7.1</junit.version>
+        <junit.version>5.9.2</junit.version>
     </properties>
 
     <dependencies>
@@ -35,6 +35,39 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse</groupId>
+            <artifactId>yasson</artifactId>
+            <version>2.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.31</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>19</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.nikeo.jsonBuilder</groupId>
+            <artifactId>jsonBuilder</artifactId>
+            <version>0.2.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.holgerbrandl</groupId>
+            <artifactId>jsonbuilder</artifactId>
+            <version>0.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.51degrees</groupId>
+            <artifactId>pipeline.jsonbuilder</artifactId>
+            <version>4.4.19</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
