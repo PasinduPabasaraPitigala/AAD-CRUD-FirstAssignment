@@ -85,6 +85,5 @@ public class ItemModel {
         }
         return item1;
     }
-    }
 
 }
