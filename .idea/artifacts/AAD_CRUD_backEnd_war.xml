@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AAD-CRUD-backEnd:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>AAD-CRUD-backEnd</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="AAD-CRUD-backEnd-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="AAD-CRUD-backEnd:war exploded" />
+    </root>
+  </artifact>
+</component>
